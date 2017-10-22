@@ -25,7 +25,7 @@ public class Studerende {
     Opretter to construktors
     Constr. nr. 1 opretter en studerende vha. et navn.
     Constr. nr. 2 opretter en sturende vha. navn, alder og højde.
-    Construktoren printer en besked til konsollen, når en studerende er oprettet
+    Construktoren printer en besked til konsollen, når en studerende er oprettet.
      */
 
     //Construktor 1

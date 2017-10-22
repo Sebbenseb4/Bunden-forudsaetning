@@ -4,7 +4,7 @@ public class DatHoldet {
 
 
 /*
-Opretter to studerende vha. Studerende construktor
+Opretter to studerende vha. construktor fra Studerende.java
 Den første studerende oprettes vha. constr. nr. 1.
 Den anden studerende oprettes vha. constr. nr 2.
                                                  */
