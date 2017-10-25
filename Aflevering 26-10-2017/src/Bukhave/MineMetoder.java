@@ -6,13 +6,11 @@ public class MineMetoder {
 
     /*
     1. Brug af java scanner
-
     En scanner gør det muligt at give input til konsollen.
-    I følgende eksempel, laves en mil-til-km beregner
-
-    Først importeres scanneren til klassen, hvilket gøres før klassebetegnelsen
+    I følgende eksempel, laves en mil-til-km beregner.
+    Først importeres scanneren til klassen, hvilket gøres før klassebetegnelsen.
     Scanneren oprettes og typen af data, der indskrives i konsollen, angives - i dette tilfælde mil (cifre)
-                                                                                                    */
+                                                                                                         */
 
     public static void eksEt() {
         Scanner scan = new Scanner(System.in);
@@ -102,16 +100,19 @@ public class MineMetoder {
                     System.out.println("4: Plat-eller-krone-simulator.");
 
                     //Deklarerer og initialiserer "valgmuligheder", som i dette tilfælde er plat eller krone (to muligheder).
-                    //Tilføjer +1 for at starte indeks på 1. Indsætter 2 i parentesen, da der er to muligheder
+                    //Tilføjer +1 for at starte indeks på 1. Indsætter 2 i parentesen (bound), da der er to muligheder.
                     int pickSide = 1 + coin.nextInt(2);
 
                     //Hvis mulighed nr. 1 genereres af Random, vil konsollen printe "Plat" til konsollen.
                     if (pickSide == 1) {
                         System.out.println("Det blev plat.");
+                        System.out.println();
+                        System.out.println();
                     }
                     //Hvis mulighed nr. 2 genereres af Random, vil konsollen printe "Krone" til konsollen.
                     else if (pickSide == 2) {
                         System.out.println("Det blev krone.");
+                        System.out.println();
                         System.out.println();
                         //Man kunne nøjes med at lave en else{sout}, i stedet for else if, da der kun er 2 muligheder
                     }
@@ -129,6 +130,7 @@ public class MineMetoder {
 
                 public static void eksFem(){
                  System.out.println("5: En Boolean variabel");
+                    System.out.println("100 >= 50");
                     boolean udsagn = 100 >= 50;
                     if (udsagn == true)
                         System.out.println("Det er sandt.");

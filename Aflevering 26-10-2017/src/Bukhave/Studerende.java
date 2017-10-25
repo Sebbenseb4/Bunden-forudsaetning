@@ -1,20 +1,11 @@
 package Bukhave;
 
-/*
-Skal indeholde
--klassevariabler,
--constructors
-og
--klassemetoder,
-som kan beskrive datamatikerstuderende på holdet
- */
-
 public class Studerende {
 
     /*
     Deklarerer og definerer variabler/data fields
     Varabler er private, så de ikke kan manipuleres
-     */
+                                                     */
 
     private int age = 0;
     private double height = 0;
@@ -26,7 +17,7 @@ public class Studerende {
     Constr. nr. 1 opretter en studerende vha. et navn.
     Constr. nr. 2 opretter en sturende vha. navn, alder og højde.
     Construktoren printer en besked til konsollen, når en studerende er oprettet.
-     */
+                                                                                  */
 
     //Construktor 1
     Studerende(String studNavn) {

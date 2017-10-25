@@ -7,13 +7,13 @@ public class Start {
     public static void main(String[] args) {
 
 
-        //De tomme "souts" giver bedre læsevenlighed
+        //De tomme "souts" i øvrige klasser giver bedre læsevenlighed
 
         //Importerer studerende fra DatHoldet klassen
         DatHoldet datKlasse = new DatHoldet();
         System.out.println();
 
-        //Henter metoder fra Studerende.java i brug og henter objekter fra DatHoldet.java
+        //Henter metoder fra Studerende.java og henter objekter fra DatHoldet.java
         datKlasse.stud1.spis();
         datKlasse.stud2.studer();
 
@@ -31,7 +31,6 @@ public class Start {
         illustrering.eksFire();
         illustrering.eksFem();
         }
-
     }
 
 
